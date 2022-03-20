@@ -1,4 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster+Two:ital@1&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
 /* Special Classes */
 .center {
     text-align: center;
+    list-style-position: inside;
+}
+
+.justified {
+    text-align: justify;
+    
+}
+/* Landing page */
+
+/* How to play */
+#how {
+    display: none;
+}
+
+/* Buttons */
+button a {
+    text-decoration: none;
+    color: white;
+}
+
+button {
+    font-family: 'Lobster Two', cursive;
+}
+
+/* Headings */
+h1 {
+    font-family: 'Lobster Two', cursive;
+}
+
+/* List */
+
+ol {
+    font-family: 'Lobster Two', cursive;
 }
