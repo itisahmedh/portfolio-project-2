@@ -101,7 +101,8 @@ function incrementScore() {
     
     document.getElementById('score').innerText = ++oldScore;
     if (oldScore === 6) {
-        alert('Congrats!')
+        alert('Congrats!');
+        window.location.reload();
     }
 }
 
@@ -112,7 +113,8 @@ function incrementIncorrect() {
     
     document.getElementById('incorrect').innerText = ++incorrect;
     if (incorrect === 7) {
-        alert('noooooooooo!')
+        alert('noooooooooo!');
+        window.location.reload();
     }
 }
 
