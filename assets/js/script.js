@@ -119,7 +119,12 @@ function incrementIncorrect() {
 }
 
 
-
+/**
+ * Restart the game
+ */
+function restartGame() {
+    window.location.reload();
+}
 
 
 for (let card of cards) {

@@ -4,9 +4,13 @@
     padding: 0;
     border: 0;
 }
+
+.center {
+    text-align: center;
+}
 /* Body */
 body {
-    height: 100vh;
+    height: 60vh;
     display: flex;
 }
 
@@ -84,4 +88,8 @@ img {
 }
 .score-area {
     text-align: center;
+}
+
+#reset {
+    margin: auto;
 }
