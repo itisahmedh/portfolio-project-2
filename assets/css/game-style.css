@@ -19,7 +19,7 @@ img {
     width: 640px;
     height: 640px;
     display: flex;
-    /* border: 2px solid blue; */
+    border: 2px solid blue;
     flex-wrap: wrap;
     flex-direction: row-reverse;
     margin: auto;
