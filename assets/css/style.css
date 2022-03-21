@@ -25,7 +25,7 @@ body {
     display: flex;
     height: 100vh;
 }
-.white {
+.green {
     color: #28a745;
 }
 /* Landing page */
@@ -40,7 +40,7 @@ body {
 /* How to play */
 #how {
     display: none;
-    color: red;
+    
 }
 
 /* Buttons */

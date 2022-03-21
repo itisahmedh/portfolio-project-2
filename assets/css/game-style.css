@@ -13,6 +13,7 @@ body {
     height: 60vh;
     display: flex;
     background-color: #f0e989;
+    overflow: visible;
 }
 /* Heading */
 h3 {
@@ -88,7 +89,7 @@ img {
 
 .score {
     display: inline-block;
-    padding: 15px;
+    padding: 5px;
     font-family: 'Lobster Two', cursive;
     text-align: center;
 }
