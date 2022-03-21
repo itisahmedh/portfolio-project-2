@@ -3,6 +3,7 @@
     margin: 0;
     padding: 0;
     border: 0;
+    box-sizing: border-box;
 }
 /* Special Classes */
 .center {
@@ -22,6 +23,7 @@
 body {
     background-color: #f0e989;
     display: flex;
+    height: 100vh;
 }
 .white {
     color: #28a745;
@@ -38,6 +40,7 @@ body {
 /* How to play */
 #how {
     display: none;
+    color: red;
 }
 
 /* Buttons */
@@ -67,11 +70,5 @@ button {
     /* margin-bottom: 30px; */
     margin: auto 0;
     display: flex;
-}
-/* Game page */
-/* Cards */
-
-.card {
-
 }
 
