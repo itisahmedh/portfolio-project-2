@@ -1,16 +1,7 @@
-/*
-*Show how to play when the button is clicked
-*/
-$('#how-btn').click(function(){
-    $('#how').toggle('slow');
-});
-
-// Game
+// Game cards
 const cards = $(".card");
 
-/**
- * Function for flipping cards
- */
+
 
 shuffle();
 let hasFlippedcard = false;
@@ -18,6 +9,9 @@ let lockBoard = false
 let firstCard, secondCard;
 let oldScore = parseInt(document.getElementById('score').innerText);
 let incorrect = parseInt(document.getElementById('incorrect').innerText);
+/**
+ * Function for flipping cards
+ */
 function flipCard() {
     if(lockBoard) return;
     if(this === firstCard) return;
@@ -101,8 +95,10 @@ function incrementScore() {
     
     document.getElementById('score').innerText = ++oldScore;
     if (oldScore === 6) {
-        alert('Congrats!');
+        setTimeout(() => {
+            alert("Well done! you have a great memory, play another time!");
         window.location.reload();
+        }, 1000 );
     }
 }
 
@@ -113,8 +109,10 @@ function incrementIncorrect() {
     
     document.getElementById('incorrect').innerText = ++incorrect;
     if (incorrect === 7) {
-        alert('noooooooooo!');
+        setTimeout(() => {
+         alert('Oh no! you have lost, try again :)');
         window.location.reload();
+        }, 1000);
     }
 }
 

@@ -57,7 +57,8 @@ button {
 }
 
 /* Headings */
-#welcome {
+#welcome,
+#how-head {
     font-family: 'Lobster Two', cursive;
     margin-top: 50px;
     margin-bottom: 30px;

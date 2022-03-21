@@ -12,8 +12,14 @@
 body {
     height: 60vh;
     display: flex;
+    background-color: #f0e989;
 }
-
+/* Heading */
+h3 {
+    text-align: center;
+    font-family: 'Lobster Two', cursive;
+    color: green;
+}
 /* Cards */
 img {
     
@@ -58,11 +64,11 @@ img {
 .front,
 .back {
     position: absolute;
-    border: 1px solid red;
+    border: 1px solid green;
     width: 100%;
     height: 100%;
     padding: 1px;
-    background-color: black;
+    background-color: #f0e989;
     border-radius: 5px;
     backface-visibility: hidden;
 }
@@ -82,14 +88,21 @@ img {
 
 .score {
     display: inline-block;
-    padding: 25px;
+    padding: 15px;
     font-family: 'Lobster Two', cursive;
     text-align: center;
 }
 .score-area {
     text-align: center;
 }
-
+/* Buttons */
 #reset {
     margin: auto;
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+.reset {
+    font-family: 'Lobster Two', cursive;
 }
