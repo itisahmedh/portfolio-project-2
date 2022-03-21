@@ -14,8 +14,27 @@
     text-align: justify;
     
 }
-/* Landing page */
 
+.underline {
+    text-decoration: underline;
+}
+/* colors */
+body {
+    background-color: #f0e989;
+    display: flex;
+}
+.white {
+    color: #28a745;
+}
+/* Landing page */
+#home {
+    margin-top: 30px;
+    margin-right: auto;
+    margin-left: auto;
+    width: auto;
+    
+
+}
 /* How to play */
 #how {
     display: none;
@@ -26,18 +45,33 @@ button a {
     text-decoration: none;
     color: white;
 }
-
+#how-btn {
+    margin-bottom: 80px;
+}
 button {
     font-family: 'Lobster Two', cursive;
+    color: #f0e989;
 }
 
 /* Headings */
-h1 {
+#welcome {
     font-family: 'Lobster Two', cursive;
+    margin-top: 50px;
+    margin-bottom: 30px;
 }
 
 /* List */
 
-ol {
+#how {
     font-family: 'Lobster Two', cursive;
+    /* margin-bottom: 30px; */
+    margin: auto 0;
+    display: flex;
 }
+/* Game page */
+/* Cards */
+
+.card {
+
+}
+
