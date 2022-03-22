@@ -74,8 +74,9 @@ Adding levels to the game to make it harder or easier.
 
 ## Further Testing
 
-- Tested using chrome inspect tools 
-- Tested on a desktop browser and mobile phone
+- Tested using chrome inspect tools.
+- Tested on a desktop browser and mobile phone.
+- Tested JavaScript using the console in chrome.
 
 ## Unresolved bugs
 
