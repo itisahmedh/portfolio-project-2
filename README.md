@@ -82,3 +82,11 @@ Adding levels to the game to make it harder or easier.
 - The card images look somewhat distorted
 
 # Deployment
+1. The code is written using [Gitpod](https://gitpod.io/)
+1. Using [Git](https://git-scm.com/) in the terminal the code is commited and pushed to a [GitHub:](https://github.com/) repository.
+1. The site is then deployed using [Github pages](https://pages.github.com/) using the following steps
+   1. Open the Github repository
+   1. Go to settings
+   1. Go to pages
+   1. In sources choose main
+   1. Click save
