@@ -36,6 +36,10 @@ It is built for users to play the game and enjoy.
 - Responsive for all devices
 - Has interacitve elements
 
+## Future Features
+
+Adding levels to the game to make it harder or easier.
+
 # Technologies Used
 
 ## Languages Used
@@ -44,4 +48,17 @@ It is built for users to play the game and enjoy.
 * [CSS3](https://en.wikipedia.org/wiki/CSS)
 * [JavaScript](https://en.wikipedia.org/wiki/JavaScript)
 
+## Frameworks and Programs used
+1. [Gitpod](https://gitpod.io/)
+    - Used to write the code.
+1. [Git](https://git-scm.com/)
+    - Used for version control
+1. [GitHub:](https://github.com/)
+    - Used to store the code
+1. [Google Fonts:](https://fonts.google.com/)
+    - Used for the fonts
+1. [Bootstrap 4.4.1:](https://getbootstrap.com/docs/4.4/getting-started/introduction/)
+    - Used to make the site more responsive
+1. [Balsamiq:](https://balsamiq.com/)
+    - Used to make the wireframes
 
