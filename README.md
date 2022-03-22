@@ -90,3 +90,16 @@ Adding levels to the game to make it harder or easier.
    1. Go to pages
    1. In sources choose main
    1. Click save
+
+   # Credits
+
+   ## Code 
+   - The game code was made with the help of this [Youtube](https://www.youtube.com/watch?v=ZniVgo8U7ek) video
+   - The score are was inspired from [Love Maths Project](https://github.com/Code-Institute-Solutions/love-maths-2.0-sourcecode/tree/master/05-tidying-up/01-a-few-last-things)
+   - [Stackoverflow](https://stackoverflow.com/questions/16955019/how-to-reload-a-page-after-the-ok-click-on-the-alert-page)
+
+   ## Media
+   Image Used were from 
+   [Wikipedia](https://en.wikipedia.org/)
+   [Seek png](seekpng.com)
+   [Stick png](stickpng.com)
