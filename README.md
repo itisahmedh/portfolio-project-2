@@ -63,4 +63,22 @@ Adding levels to the game to make it harder or easier.
     - Used to make the wireframes
 
 # Testing 
+## Validators
 
+- [W3C Markup Validator](https://validator.w3.org/#validate_by_input)
+  - Used to validate the HTML in every page, it resulted in the following errors which has been solved.
+  - ![Home Page Error](assets/images/readme/validator-html-game.png)
+  - ![Game Page Error](assets/images/readme/validatot-html-home.png)
+-  [Jigsaw CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) 
+   - Used for CSS and no errors were found.
+
+## Further Testing
+
+- Tested using chrome inspect tools 
+- Tested on a desktop browser and mobile phone
+
+## Unresolved bugs
+
+- The card images look somewhat distorted
+
+# Deployment
